@@ -28,3 +28,41 @@ After seeing the diy simucube activepedal i thought about that the same method c
 
 To make this 3d model i learned how to use onshape. I have done some small things with it and other similar cad programs but this is the first thime i have made something with this many pieces. I have also learn how to use the assembly feature to make this model be able to move and simulate usage. This is something i always wanted to learn and I am happy to finally be able to make moving 3d models.  
 
+## 10/27/2025 - Researched parts  
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTkyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--66030b4ac6b4537235c5468cdb71ad62b58bbbc1/image.png)
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTkyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--6cb4cc56c1763b3c3014b931fb32b3b3f5314d23/image.png)
+
+I have started doing some research trying to find the best and cheapest parts for the sim racing hand brake. 
+
+The main thing powering this handbrake and enabling it to be customisable and give response is the 6374 motor that is able to be bought on aliepress for the price of 63 dollars. According to my calculations I will need somewhere around 1000w of force to get to my desired torque, but this motor is rated for more than 1000w, yes but it is still the cheapest motor I can find that has a rating of more than 1000w.
+
+To power this motor I will need to get a power supply to transform the power from my wall plug into dc 48v 20a. I have found a quite cheap power supply from aliexpress that matches all my requirments. 
+
+Then the dc needs to go into a motor controller which also are available on aliexpress for cheap. The motor controller needs to be compatible with the motor and needs to be able to handle the power rating at 1000w I want.
+
+The motor spins way to fast and has way to little torque for being useful as a handbrake so I will need to gear it down. I am going to do this by using a screw that the motor rotates that also is conected to the handbrake with a bearing / mutter. This will have decrease the speed from the motor and give it alot more torque. I will do this with a specialised ball screw so the friction and stress on the mutter will decrease. 
+
+I also will need a load cell that measures the power of the user how much they pull against the handbrake to be able to resist accordingly and know what for input the simulation wants. 
+
+To put all of these things together i will make a 3d printed frame. The frame is going to house all of the components. The lever you will pull will be made of some metal with a plastic 3d printed grip at the top. I will also use some bearings to decrease friction and add rotational movment. I will also need some sort of dev board or similar to interface between computer and electronics.
+
+###### Price estimation
+
+- Motor ~63 $
+- Power supply ~74 $
+- Motor controller ~30 $
+- Ball screw with bearing and mount ~46 $
+- Load cell ~27 $
+- Ball bearings ~11 $
+- 3d printed case ~0 $
+- Micro controller and other misc electronics ~0 $
+
+###### Total ~251 $
+
+This estimation does not include shiping to Sweden. 
+
+I will continue with designs including these parts and more carefully checking everything before I begin the building process witch probably will be harder than i expect. 
+
+Thanks for reading my Journal :)  
+
